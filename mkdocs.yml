@@ -1,0 +1,18 @@
+site_name: AI-verordening
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  features:
+  - navigation.instant
+  - navigation.tabs
+
+# Extra opties
+markdown_extensions: 
+    - pymdownx.tabbed:
+        alternate_style: true
+
+plugins:
+  - glightbox
+  - search
+  - awesome-pages:
+      collapse_single_pages: true
