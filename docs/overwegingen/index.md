@@ -1,3 +1,3 @@
 ---
-title: Overzicht overweringen
+title: Overzicht overwegingen
 ---
