@@ -1,0 +1,12 @@
+# Environments
+.env
+.venv/
+venv/
+
+# Mac
+.DS_Store
+
+# MkDocs
+site
+public
+.cache
