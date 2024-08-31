@@ -42,6 +42,7 @@ plugins:
   - awesome-pages:
       sort_type: natural
   - glightbox
+  - privacy
   - search
 
 nav:
