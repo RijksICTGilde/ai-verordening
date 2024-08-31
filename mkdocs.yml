@@ -4,6 +4,7 @@ watch:
   - includes/
 theme:
   name: material
+  language: nl
   features:
     # - navigation.instant
     - navigation.tabs
