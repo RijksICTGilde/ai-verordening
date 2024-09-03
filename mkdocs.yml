@@ -4,11 +4,12 @@ watch:
   - includes/
 theme:
   name: material
+  language: nl
   features:
-    # - navigation.instant
-    - navigation.tabs
-    - navigation.indexes
     - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tabs
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -36,366 +37,72 @@ markdown_extensions:
   - footnotes
   - pymdownx.snippets:
       auto_append:
-      - includes/definities.md
+        - includes/definities.md
 
 plugins:
+  - awesome-pages:
+      sort_type: natural
   - glightbox
+  - privacy
   - search
 
 nav:
-- Overwegingen:
-    - overwegingen/index.md
-    - overwegingen/overweging_01.md
-    - overwegingen/overweging_02.md
-    - overwegingen/overweging_03.md
-    - overwegingen/overweging_04.md
-    - overwegingen/overweging_05.md
-    - overwegingen/overweging_06.md
-    - overwegingen/overweging_07.md
-    - overwegingen/overweging_08.md
-    - overwegingen/overweging_09.md
-    - overwegingen/overweging_10.md
-    - overwegingen/overweging_11.md
-    - overwegingen/overweging_12.md
-    - overwegingen/overweging_13.md
-    - overwegingen/overweging_14.md
-    - overwegingen/overweging_15.md
-    - overwegingen/overweging_16.md
-    - overwegingen/overweging_17.md
-    - overwegingen/overweging_18.md
-    - overwegingen/overweging_19.md
-    - overwegingen/overweging_20.md
-    - overwegingen/overweging_21.md
-    - overwegingen/overweging_22.md
-    - overwegingen/overweging_23.md
-    - overwegingen/overweging_24.md
-    - overwegingen/overweging_25.md
-    - overwegingen/overweging_26.md
-    - overwegingen/overweging_27.md
-    - overwegingen/overweging_28.md
-    - overwegingen/overweging_29.md
-    - overwegingen/overweging_30.md
-    - overwegingen/overweging_31.md
-    - overwegingen/overweging_32.md
-    - overwegingen/overweging_33.md
-    - overwegingen/overweging_34.md
-    - overwegingen/overweging_35.md
-    - overwegingen/overweging_36.md
-    - overwegingen/overweging_37.md
-    - overwegingen/overweging_38.md
-    - overwegingen/overweging_39.md
-    - overwegingen/overweging_40.md
-    - overwegingen/overweging_41.md
-    - overwegingen/overweging_42.md
-    - overwegingen/overweging_43.md
-    - overwegingen/overweging_44.md
-    - overwegingen/overweging_45.md
-    - overwegingen/overweging_46.md
-    - overwegingen/overweging_47.md
-    - overwegingen/overweging_48.md
-    - overwegingen/overweging_49.md
-    - overwegingen/overweging_50.md
-    - overwegingen/overweging_51.md
-    - overwegingen/overweging_52.md
-    - overwegingen/overweging_53.md
-    - overwegingen/overweging_54.md
-    - overwegingen/overweging_55.md
-    - overwegingen/overweging_56.md
-    - overwegingen/overweging_57.md
-    - overwegingen/overweging_58.md
-    - overwegingen/overweging_59.md
-    - overwegingen/overweging_60.md
-    - overwegingen/overweging_61.md
-    - overwegingen/overweging_62.md
-    - overwegingen/overweging_63.md
-    - overwegingen/overweging_64.md
-    - overwegingen/overweging_65.md
-    - overwegingen/overweging_66.md
-    - overwegingen/overweging_67.md
-    - overwegingen/overweging_68.md
-    - overwegingen/overweging_69.md
-    - overwegingen/overweging_70.md
-    - overwegingen/overweging_71.md
-    - overwegingen/overweging_72.md
-    - overwegingen/overweging_73.md
-    - overwegingen/overweging_74.md
-    - overwegingen/overweging_75.md
-    - overwegingen/overweging_76.md
-    - overwegingen/overweging_77.md
-    - overwegingen/overweging_78.md
-    - overwegingen/overweging_79.md
-    - overwegingen/overweging_80.md
-    - overwegingen/overweging_81.md
-    - overwegingen/overweging_82.md
-    - overwegingen/overweging_83.md
-    - overwegingen/overweging_84.md
-    - overwegingen/overweging_85.md
-    - overwegingen/overweging_86.md
-    - overwegingen/overweging_87.md
-    - overwegingen/overweging_88.md
-    - overwegingen/overweging_89.md
-    - overwegingen/overweging_90.md
-    - overwegingen/overweging_91.md
-    - overwegingen/overweging_92.md
-    - overwegingen/overweging_93.md
-    - overwegingen/overweging_94.md
-    - overwegingen/overweging_95.md
-    - overwegingen/overweging_96.md
-    - overwegingen/overweging_97.md
-    - overwegingen/overweging_98.md
-    - overwegingen/overweging_99.md
-    - overwegingen/overweging_100.md
-    - overwegingen/overweging_101.md
-    - overwegingen/overweging_102.md
-    - overwegingen/overweging_103.md
-    - overwegingen/overweging_104.md
-    - overwegingen/overweging_105.md
-    - overwegingen/overweging_106.md
-    - overwegingen/overweging_107.md
-    - overwegingen/overweging_108.md
-    - overwegingen/overweging_109.md
-    - overwegingen/overweging_110.md
-    - overwegingen/overweging_111.md
-    - overwegingen/overweging_112.md
-    - overwegingen/overweging_113.md
-    - overwegingen/overweging_114.md
-    - overwegingen/overweging_115.md
-    - overwegingen/overweging_116.md
-    - overwegingen/overweging_117.md
-    - overwegingen/overweging_118.md
-    - overwegingen/overweging_119.md
-    - overwegingen/overweging_120.md
-    - overwegingen/overweging_121.md
-    - overwegingen/overweging_122.md
-    - overwegingen/overweging_123.md
-    - overwegingen/overweging_124.md
-    - overwegingen/overweging_125.md
-    - overwegingen/overweging_126.md
-    - overwegingen/overweging_127.md
-    - overwegingen/overweging_128.md
-    - overwegingen/overweging_129.md
-    - overwegingen/overweging_130.md
-    - overwegingen/overweging_131.md
-    - overwegingen/overweging_132.md
-    - overwegingen/overweging_133.md
-    - overwegingen/overweging_134.md
-    - overwegingen/overweging_135.md
-    - overwegingen/overweging_136.md
-    - overwegingen/overweging_137.md
-    - overwegingen/overweging_138.md
-    - overwegingen/overweging_139.md
-    - overwegingen/overweging_140.md
-    - overwegingen/overweging_141.md
-    - overwegingen/overweging_142.md
-    - overwegingen/overweging_143.md
-    - overwegingen/overweging_144.md
-    - overwegingen/overweging_145.md
-    - overwegingen/overweging_146.md
-    - overwegingen/overweging_147.md
-    - overwegingen/overweging_148.md
-    - overwegingen/overweging_149.md
-    - overwegingen/overweging_150.md
-    - overwegingen/overweging_151.md
-    - overwegingen/overweging_152.md
-    - overwegingen/overweging_153.md
-    - overwegingen/overweging_154.md
-    - overwegingen/overweging_155.md
-    - overwegingen/overweging_156.md
-    - overwegingen/overweging_157.md
-    - overwegingen/overweging_158.md
-    - overwegingen/overweging_159.md
-    - overwegingen/overweging_160.md
-    - overwegingen/overweging_161.md
-    - overwegingen/overweging_162.md
-    - overwegingen/overweging_163.md
-    - overwegingen/overweging_164.md
-    - overwegingen/overweging_165.md
-    - overwegingen/overweging_166.md
-    - overwegingen/overweging_167.md
-    - overwegingen/overweging_168.md
-    - overwegingen/overweging_169.md
-    - overwegingen/overweging_170.md
-    - overwegingen/overweging_171.md
-    - overwegingen/overweging_172.md
-    - overwegingen/overweging_173.md
-    - overwegingen/overweging_174.md
-    - overwegingen/overweging_175.md
-    - overwegingen/overweging_176.md
-    - overwegingen/overweging_177.md
-    - overwegingen/overweging_178.md
-    - overwegingen/overweging_179.md
-    - overwegingen/overweging_180.md
-- Hoofdstukken:
-      - Hoofdstuk 1 Algemene bepalingen:
-          - hoofdstukken/hoofdstuk-1/index.md
-          - hoofdstukken/hoofdstuk-1/a1.md
-          - hoofdstukken/hoofdstuk-1/a2.md
-          - hoofdstukken/hoofdstuk-1/a3.md
-          - hoofdstukken/hoofdstuk-1/a4.md
-      - Hoofdstuk 2 Verboden AI-praktijken:
-          - hoofdstukken/hoofdstuk-2/a5.md
-      - Hoofdstuk 3 AI-systemen met een hoog risico:
-          - Afdeling 1 Classificatie van AI-systemen als AI-systemen met een hoog risico:
-              - hoofdstukken/hoofdstuk-3/afdeling-1/index.md
-              - hoofdstukken/hoofdstuk-3/afdeling-1/a6.md
-              - hoofdstukken/hoofdstuk-3/afdeling-1/a7.md
-          - Afdeling 2 Eisen voor AI-systemen met een hoog risico:
-              - hoofdstukken/hoofdstuk-3/afdeling-2/index.md
-              - hoofdstukken/hoofdstuk-3/afdeling-2/a8.md
-              - hoofdstukken/hoofdstuk-3/afdeling-2/a9.md
-              - hoofdstukken/hoofdstuk-3/afdeling-2/a10.md
-              - hoofdstukken/hoofdstuk-3/afdeling-2/a11.md
-              - hoofdstukken/hoofdstuk-3/afdeling-2/a12.md
-              - hoofdstukken/hoofdstuk-3/afdeling-2/a13.md
-              - hoofdstukken/hoofdstuk-3/afdeling-2/a14.md
-              - hoofdstukken/hoofdstuk-3/afdeling-2/a15.md
-          - Afdeling 3 Verplichtingen van aanbieders en gebruiksverantwoordelijken van AI-systemen met een hoog risico en andere partijen:
-              - hoofdstukken/hoofdstuk-3/afdeling-3/index.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a16.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a17.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a18.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a19.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a20.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a21.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a22.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a23.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a24.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a25.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a26.md
-              - hoofdstukken/hoofdstuk-3/afdeling-3/a27.md
-          - Afdeling 4 Aanmeldende autoriteiten en aangemelde instanties:
-              - hoofdstukken/hoofdstuk-3/afdeling-4/index.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a28.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a29.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a30.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a31.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a32.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a33.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a34.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a35.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a36.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a37.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a38.md
-              - hoofdstukken/hoofdstuk-3/afdeling-4/a39.md
-          - Afdeling 5 Normen, conformiteitsbeoordeling, certificaten, registratie:
-              - hoofdstukken/hoofdstuk-3/afdeling-5/index.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a40.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a41.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a42.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a43.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a44.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a45.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a46.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a47.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a48.md
-              - hoofdstukken/hoofdstuk-3/afdeling-5/a49.md
-      - Hoofdstuk 4 Transparantieverplichtingen voor aanbieders en gebruiksverantwoordelijken:
-          - hoofdstukken/hoofdstuk-4/a50.md
-      - Hoofdstuk 5 AI-modellen voor algemene doeleinden:
-          - Afdeling 1 Classificatieregels:
-              - hoofdstukken/hoofdstuk-5/afdeling-1/index.md
-              - hoofdstukken/hoofdstuk-5/afdeling-1/a51.md
-              - hoofdstukken/hoofdstuk-5/afdeling-1/a52.md
-          - Afdeling 2 Verplichtingen voor aanbieders van AI-modellen voor algemene doeleinden:
-              - hoofdstukken/hoofdstuk-5/afdeling-2/index.md
-              - hoofdstukken/hoofdstuk-5/afdeling-2/a53.md
-              - hoofdstukken/hoofdstuk-5/afdeling-2/a54.md
-          - Afdeling 3 Verplichtingen voor aanbieders van AI-modellen voor algemene doeleinden met een systeemrisico:
-              - hoofdstukken/hoofdstuk-5/afdeling-3/a55.md
-          - Afdeling 4 Praktijkcodes:
-              - hoofdstukken/hoofdstuk-5/afdeling-4/a56.md
-      - Hoofdstuk 6 Maatregelen ter ondersteuning van innovatie:
-          - hoofdstukken/hoofdstuk-6/index.md
-          - hoofdstukken/hoofdstuk-6/a57.md
-          - hoofdstukken/hoofdstuk-6/a58.md
-          - hoofdstukken/hoofdstuk-6/a59.md
-          - hoofdstukken/hoofdstuk-6/a60.md
-          - hoofdstukken/hoofdstuk-6/a61.md
-          - hoofdstukken/hoofdstuk-6/a62.md
-          - hoofdstukken/hoofdstuk-6/a63.md
-      - Hoofdstuk 7 Governance:
-          - Afdeling 1 Governance op unienivea:
-              - hoofdstukken/hoofdstuk-7/afdeling-1/index.md
-              - hoofdstukken/hoofdstuk-7/afdeling-1/a64.md
-              - hoofdstukken/hoofdstuk-7/afdeling-1/a65.md
-              - hoofdstukken/hoofdstuk-7/afdeling-1/a66.md
-              - hoofdstukken/hoofdstuk-7/afdeling-1/a67.md
-              - hoofdstukken/hoofdstuk-7/afdeling-1/a68.md
-              - hoofdstukken/hoofdstuk-7/afdeling-1/a69.md
-          - Afdeling 2 Nationale bevoegde autoriteiten:
-              - hoofdstukken/hoofdstuk-7/afdeling-2/a70.md
-      - Hoofstuk 8 EU-databank voor AI-systemen met een hoog risico:
-          - hoofdstukken/hoofdstuk-8/a71.md
-      - Hoofdstuk 9 Monitoring na het in de handel brengen, informatie-uitwisseling en markttoezicht:
-          - Afdeling 1 Monitoring na het in de handel brengen:
-              - hoofdstukken/hoofdstuk-9/afdeling-1/a72.md
-          - Afdeling 2 Delen van informatie over ernstige incidenten:
-              - hoofdstukken/hoofdstuk-9/afdeling-2/a73.md
-          - Afdeling 3 Handhaving:
-              - hoofdstukken/hoofdstuk-9/afdeling-3/index.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a74.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a75.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a76.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a77.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a78.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a79.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a80.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a81.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a82.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a83.md
-              - hoofdstukken/hoofdstuk-9/afdeling-3/a84.md
-          - Afdeling 4 Rechtsmiddelen:
-              - hoofdstukken/hoofdstuk-9/afdeling-4/index.md
-              - hoofdstukken/hoofdstuk-9/afdeling-4/a85.md
-              - hoofdstukken/hoofdstuk-9/afdeling-4/a86.md
-              - hoofdstukken/hoofdstuk-9/afdeling-4/a87.md
-          - Afdeling 5 Toezicht, onderzoek, handhaving en monitoring ten aanzien van aanbieders van AI-modellen voor algemene doeleinden:
-              - hoofdstukken/hoofdstuk-9/afdeling-5/index.md
-              - hoofdstukken/hoofdstuk-9/afdeling-5/a88.md
-              - hoofdstukken/hoofdstuk-9/afdeling-5/a89.md
-              - hoofdstukken/hoofdstuk-9/afdeling-5/a90.md
-              - hoofdstukken/hoofdstuk-9/afdeling-5/a91.md
-              - hoofdstukken/hoofdstuk-9/afdeling-5/a92.md
-              - hoofdstukken/hoofdstuk-9/afdeling-5/a93.md
-              - hoofdstukken/hoofdstuk-9/afdeling-5/a94.md
-      - Hoofdstuk 10 Gedragscodes en richtsnoeren:
-          - hoofdstukken/hoofdstuk-10/index.md
-          - hoofdstukken/hoofdstuk-10/a95.md
-          - hoofdstukken/hoofdstuk-10/a96.md
-      - Hoofdstuk 11 Bevoegdheidsdelegatie en comitéprocedure:
-          - hoofdstukken/hoofdstuk-11/index.md
-          - hoofdstukken/hoofdstuk-11/a97.md
-          - hoofdstukken/hoofdstuk-11/a98.md
-      - Hoofdstuk 12 Sancties:
-          - hoofdstukken/hoofdstuk-12/index.md
-          - hoofdstukken/hoofdstuk-12/a99.md
-          - hoofdstukken/hoofdstuk-12/a100.md
-          - hoofdstukken/hoofdstuk-12/a101.md
-      - Hoofdstuk 13 Slotbepalingen:
-          - hoofdstukken/hoofdstuk-13/index.md
-          - hoofdstukken/hoofdstuk-13/a102.md
-          - hoofdstukken/hoofdstuk-13/a103.md
-          - hoofdstukken/hoofdstuk-13/a104.md
-          - hoofdstukken/hoofdstuk-13/a105.md
-          - hoofdstukken/hoofdstuk-13/a106.md
-          - hoofdstukken/hoofdstuk-13/a107.md
-          - hoofdstukken/hoofdstuk-13/a108.md
-          - hoofdstukken/hoofdstuk-13/a109.md
-          - hoofdstukken/hoofdstuk-13/a110.md
-          - hoofdstukken/hoofdstuk-13/a111.md
-          - hoofdstukken/hoofdstuk-13/a112.md
-          - hoofdstukken/hoofdstuk-13/a113.md
-- Bijlagen:
-    - bijlagen/b1.md
-    - bijlagen/b2.md
-    - bijlagen/b3.md
-    - bijlagen/b4.md
-    - bijlagen/b5.md
-    - bijlagen/b6.md
-    - bijlagen/b7.md
-    - bijlagen/b8.md
-    - bijlagen/b9.md
-    - bijlagen/b10.md
-    - bijlagen/b11.md
-    - bijlagen/b12.md
-    - bijlagen/b13.md
+  - Overwegingen:
+    - ... | flat | overwegingen/*
+  - Hoofdstukken:
+    - Hoofdstuk 1 - Algemene bepalingen:          
+      - ... | flat | hoofdstukken/hoofdstuk-1/*          
+    - Hoofdstuk 2 - Verboden AI-praktijken:
+      - ... | flat | hoofdstukken/hoofdstuk-2/*
+    - Hoofdstuk 3 - AI-systemen met een hoog risico:
+      - Afdeling 1 - Classificatie van AI-systemen als AI-systemen met een hoog risico:
+        - ... | flat | hoofdstukken/hoofdstuk-3/afdeling-1/*
+      - Afdeling 2 - Eisen voor AI-systemen met een hoog risico:
+        - ... | flat " hoofdstukken/hoofdstuk-3/afdeling-2/*
+      - Afdeling 3 - Verplichtingen van aanbieders en gebruiksverantwoordelijken van AI-systemen met een hoog risico en andere partijen:
+        - ... | flat | hoofdstukken/hoofdstuk-3/afdeling-3/*            
+      - Afdeling 4 - Aanmeldende autoriteiten en aangemelde instanties:
+        - ... | flat | hoofdstukken/hoofdstuk-3/afdeling-4/*            
+      - Afdeling 5 - Normen, conformiteitsbeoordeling, certificaten, registratie:
+        - ... | flat | hoofdstukken/hoofdstuk-3/afdeling-5/*            
+    - Hoofdstuk 4 - Transparantieverplichtingen voor aanbieders en gebruiksverantwoordelijken:
+      - ... | flat | hoofdstukken/hoofdstuk-4/*
+    - Hoofdstuk 5 - AI-modellen voor algemene doeleinden:
+      - Afdeling 1 - Classificatieregels:
+        - ... | flat | hoofdstukken/hoofdstuk-5/afdeling-1/*
+      - Afdeling 2 - Verplichtingen voor aanbieders van AI-modellen voor algemene doeleinden:
+        - ... | flat | hoofdstukken/hoofdstuk-5/afdeling-2/*
+      - Afdeling 3 - Verplichtingen voor aanbieders van AI-modellen voor algemene doeleinden met een systeemrisico:
+        - ... | flat | hoofdstukken/hoofdstuk-5/afdeling-3/*
+      - Afdeling 4 - Praktijkcodes:
+        - ... | flat | hoofdstukken/hoofdstuk-5/afdeling-4/*
+    - Hoofdstuk 6 - Maatregelen ter ondersteuning van innovatie:
+        - ... | flat | hoofdstukken/hoofdstuk-6/*        
+    - Hoofdstuk 7 - Governance:
+      - Afdeling 1 - Governance op unienivea:
+        - ... | flat | hoofdstukken/hoofdstuk-7/afdeling-1/*
+      - Afdeling 2 - Nationale bevoegde autoriteiten:
+        - ... | flat | hoofdstukken/hoofdstuk-7/afdeling-2/*
+    - Hoofstuk 8 - EU-databank voor AI-systemen met een hoog risico:
+        - ... | flat | hoofdstukken/hoofdstuk-8/*
+    - Hoofdstuk 9 - Monitoring na het in de handel brengen, informatie-uitwisseling en markttoezicht:
+      - Afdeling 1 - Monitoring na het in de handel brengen:
+        - ... | flat | hoofdstukken/hoofdstuk-9/afdeling-1/*
+      - Afdeling 2 - Delen van informatie over ernstige incidenten:
+        - ... | flat | hoofdstukken/hoofdstuk-9/afdeling-2/*
+      - Afdeling 3 - Handhaving:
+        - ... | flat | hoofdstukken/hoofdstuk-9/afdeling-3/*        
+      - Afdeling 4 - Rechtsmiddelen:
+        - ... | flat | hoofdstukken/hoofdstuk-9/afdeling-4/*        
+      - Afdeling 5 - Toezicht, onderzoek, handhaving en monitoring ten aanzien van aanbieders van AI-modellen voor algemene doeleinden:
+        - ... | flat | hoofdstukken/hoofdstuk-9/afdeling-5/*
+    - Hoofdstuk 10 - Gedragscodes en richtsnoeren:
+      - ... | flat | hoofdstukken/hoofdstuk-10/*
+    - Hoofdstuk 11 - Bevoegdheidsdelegatie en comitéprocedure:
+      - ... | flat | hoofdstukken/hoofdstuk-11/*      
+    - Hoofdstuk 12 - Sancties:
+      - ... | flat | hoofdstukken/hoofdstuk-12/*
+    - Hoofdstuk 13 - Slotbepalingen:
+      - ... | flat | hoofdstukken/hoofdstuk-13/*
+  - Bijlagen:
+    - ... | flat | bijlagen/*

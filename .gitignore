@@ -10,3 +10,6 @@ venv/
 site
 public
 .cache
+
+# Visual Studio Code
+.vscode
