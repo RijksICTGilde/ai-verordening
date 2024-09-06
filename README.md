@@ -7,3 +7,5 @@ Gebruikte bron: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 
 Deze repo is nog in ontwikkeling en kan fouten bevatten.
 Gebruik is op eigen verantwoordelijkheid.
+
+Deze site wordt gedeployd op [https://rijksictgilde.github.io/ai-verordening/](https://rijksictgilde.github.io/ai-verordening/).
