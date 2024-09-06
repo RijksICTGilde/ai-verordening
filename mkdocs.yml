@@ -1,5 +1,5 @@
 site_name: AI-verordening
-site_url: https://mydomain.org/mysite
+repo_url: https://github.com/RijksICTGilde/ai-verordening
 watch:
   - includes/
 theme:
