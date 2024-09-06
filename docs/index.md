@@ -6,7 +6,7 @@ hide:
 ---
 
 Toegankelijke versie van de AI-verordening in het Nederlands. 
-Gebruikte bron: [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2024/1689/oj).
+Gebruikte bron: [EUR-Lex](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689).
 
 !!! warning "Opmerking"
 

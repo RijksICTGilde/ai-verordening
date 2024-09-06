@@ -1,4 +1,6 @@
 site_name: AI-verordening
+site_url: https://rijksictgilde.github.io/ai-verordening/
+repo_name: RijksICTGilde/ai-verordening
 repo_url: https://github.com/RijksICTGilde/ai-verordening
 watch:
   - includes/
