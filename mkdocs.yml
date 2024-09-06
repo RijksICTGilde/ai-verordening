@@ -49,6 +49,8 @@ plugins:
   - search
 
 nav:
+  - Home:
+    - index.md
   - Overwegingen:
     - ... | flat | overwegingen/*
   - Hoofdstukken:
@@ -108,3 +110,5 @@ nav:
       - ... | flat | hoofdstukken/hoofdstuk-13/*
   - Bijlagen:
     - ... | flat | bijlagen/*
+  - Andere wetgeving:
+    - Hoofdstuk II van Verordening (EU) 2022/2065: andere-wetgeving/verordening-2022-2065-h2.md
